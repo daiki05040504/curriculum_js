@@ -1,12 +1,14 @@
 // 3の倍数のとき、 Fizz! 
 
 let number = 1;
-while( number <= 100; number++) {
-  console.log(number)
+while(number<100) {
+  number++;
+}
+  if( number % 3 === 0)  {
+  console.log("Fezz!!");
 }
 
-if (number % 3 === 0) {
-  console.log(Fezz!!);
+
 
 
 
